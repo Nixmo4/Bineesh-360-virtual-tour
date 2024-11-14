@@ -45,19 +45,13 @@ var APP_DATA = {
           "yaw": -1.308835254594939,
           "pitch": -0.06289147373256299,
           "rotation": 0,
-          "target": "5-formal-living"
+          "target": "4-formal-living"
         },
         {
           "yaw": -1.4910286882930155,
           "pitch": 0.14433924872391124,
           "rotation": 6.283185307179586,
-          "target": "4-dining"
-        },
-        {
-          "yaw": -1.1489302429519892,
-          "pitch": 0.12016550133548165,
-          "rotation": 7.0685834705770345,
-          "target": "3-wash"
+          "target": "3-dining"
         }
       ],
       "infoHotspots": []
@@ -101,7 +95,7 @@ var APP_DATA = {
           "yaw": -3.136150145780732,
           "pitch": 0.0952397104877516,
           "rotation": 0,
-          "target": "4-dining"
+          "target": "3-dining"
         },
         {
           "yaw": -2.846008464270813,
@@ -113,13 +107,7 @@ var APP_DATA = {
           "yaw": 2.7668328228195804,
           "pitch": 0.061829906077150554,
           "rotation": 4.71238898038469,
-          "target": "5-formal-living"
-        },
-        {
-          "yaw": 2.952185620427226,
-          "pitch": 0.07382591414778972,
-          "rotation": 0,
-          "target": "3-wash"
+          "target": "4-formal-living"
         }
       ],
       "infoHotspots": []
@@ -156,6 +144,12 @@ var APP_DATA = {
         {
           "yaw": -2.5769402611796526,
           "pitch": 0.0018379794486804713,
+          "rotation": 0,
+          "target": "1-kitchen"
+        },
+        {
+          "yaw": -2.5769402611796526,
+          "pitch": 0.0018379794486804713,
           "rotation": 6.283185307179586,
           "target": "1-kitchen"
         },
@@ -169,50 +163,19 @@ var APP_DATA = {
           "yaw": -1.9909816431842877,
           "pitch": 0.22533984175572286,
           "rotation": 0,
-          "target": "4-dining"
+          "target": "3-dining"
         },
         {
           "yaw": -1.6191843509699382,
           "pitch": -0.12942935823868496,
           "rotation": 1.5707963267948966,
-          "target": "5-formal-living"
+          "target": "4-formal-living"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-wash",
-      "name": "Wash",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.2793738987146348,
-        "pitch": 0.08454705463931589,
-        "fov": 1.4134061960355204
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-dining",
+      "id": "3-dining",
       "name": "Dining",
       "levels": [
         {
@@ -262,13 +225,13 @@ var APP_DATA = {
           "yaw": 2.973959757666748,
           "pitch": 0.15890592495892442,
           "rotation": 0,
-          "target": "5-formal-living"
+          "target": "4-formal-living"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-formal-living",
+      "id": "4-formal-living",
       "name": "Formal Living",
       "levels": [
         {
@@ -306,25 +269,19 @@ var APP_DATA = {
           "yaw": -1.4996279988717554,
           "pitch": 0.2620244948900847,
           "rotation": 7.0685834705770345,
-          "target": "4-dining"
+          "target": "3-dining"
         },
         {
           "yaw": -1.6965556728592084,
           "pitch": 0.11842757992476294,
           "rotation": 4.71238898038469,
           "target": "2-courtyard"
-        },
-        {
-          "yaw": -1.8352882871106289,
-          "pitch": 0.3282813406150691,
-          "rotation": 4.71238898038469,
-          "target": "3-wash"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-formal-living",
+      "id": "5-formal-living",
       "name": "Formal Living",
       "levels": [
         {
@@ -356,13 +313,7 @@ var APP_DATA = {
           "yaw": 0.958167607787157,
           "pitch": 0.10161512303388065,
           "rotation": 1.5707963267948966,
-          "target": "4-dining"
-        },
-        {
-          "yaw": 0.7734788327300688,
-          "pitch": 0.09807804937574005,
-          "rotation": 4.71238898038469,
-          "target": "3-wash"
+          "target": "3-dining"
         }
       ],
       "infoHotspots": []
